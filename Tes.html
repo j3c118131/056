@@ -14,19 +14,16 @@
     <!-- Fontawesome CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
-    <title>Task 056</title>
+    <title>JLINE PT PIN Task 056</title>
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container" id="home">
-        <a class="navbar-brand" href="#"><b>LOGO</b> RECRUITE SITE</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-bg">
+    <div class="container">
+        <a class="navbar-brand logo-navtop" href="#"><b>LOGO</b></a>
+        <div class="navbar-nav text-white mt-3 d-none d-lg-block">RECRUIT SITE</div>
+            <div class="navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto"> <!-- Ngubah posisi navbar kanan kiri tengah disini -->
                     <li class="nav-item active">
                         <a class="nav-link" href="#">MENU <span class="sr-only">(current)</span></a>
@@ -40,68 +37,117 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">MENU</a>
                     </li>
-                    <button type="button" class="btn btn-warning">WARNING</button>
+                    <li class="nav-item">
+                        <a class="nav-link btn-sm text-yellow" href="#">募集要項</a>
+                    </li>
                 </ul>
             </div>
-        </div>
-    </nav>
+    </div>
+  </nav>
     
     <div class="section1">
         <div class="row">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">                
                 <ol class="carousel-indicators">
-                    <button class="button button2 text-white ml-auto mr-auto">Scroll</button>
+                    <div class="text-white w-100 text-center d-none d-xl-block" id="scrollbtn">
+                        <button class=" btn btn-warning text-yellow text-white">SCROLL</button>
+                    </div>
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>                        
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/img_perkotaan2.png" class="d-block w-100" alt="">
+                        <img src="img/img_perkotaan2.jpg" class="d-block w-100" alt="">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/img_perkotaan2.png" class="d-block w-100" alt="">
+                        <img src="img/img_perkotaan2.jpg" class="d-block w-100" alt="">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/img_perkotaan2.png" class="d-block w-100" alt="">
+                        <img src="img/img_perkotaan2.jpg" class="d-block w-100" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-        <div class="section2"> 
-            <div class="row">
-                SPECIAL CONTENT
-            </div>
-            <div class="row">
-                Tulisan Jepang + Bg Oren 
-            </div>
-            <div class="row">
-                <div class="col">
-                    Foto 1
-                </div>
-                <div class="col">
-                    Foto 2
-                </div>
+    <div class="section2">
+        <div id="d-none d-md-block" style="height: 25vh;"></div>
+        <div class="row w-100 map-wrapper">
+            <div class="col d-none d-md-block"></div>
+            <div class="col map-bg"></div>
+        </div>
+        <div class="row w-100 map-content">
+           <div class="col"></div>
+           <div class="col-10">
+            <p class="maptext"><br> 
+                <span class="maptext subtitle"><br>この文章はダミーです。</span><br>
+                この文章はダミーです。文字の大きさ、量、字間、<br>
+                行間等を確認するために入れています。<br><br>
+                この文章はダミーです。文字の大きさ、量、字間、<br>
+                行間等を確認するために入れています。<br>
+                この文章はダミーです。文字の大きさ、量、字間、<br>
+                行間等を確認するために入れています。<br><br><br>
+                <span class="maptext subtitle">この文章はダミーです。文字の大きさ、量、字間、<br>
+                行間等を確認するために入れています。<br><br></span>
+                この文章はダミーです。文字の大きさ、量、字間、<br>
+                行間等を確認するために入れています。<br>
+                この文章はダミーです。文字の大きさ、量、字間、<br>
+                行間等を確認するために入れています。<br></p>
             </div>
         </div>
-        
-    <div class="container">
-        <section3 class="row">
-            <div class="col-md-3 col-sm-6 bg-danger">
-                col1
+    </div>
+
+    <div class="section3">
+        <div class="row w-100">
+            <div class="col">
+              <div class="row w-100 special_contents_1">
+                <div class="col">
+                  <p class="sectitle special-contents-title">SPECIAL CONTENTS</p>
+                </div>
+              </div>
+              <div class="row w-100 special_contents_yellow">
+                <div class="col"></div>
+                <div class="col-8 special-contents-bg"></div>
+              </div>
+              <div class="row w-100 special_contents_2">
+                <div class="col"></div>
+              </div>
             </div>
-            <div class="col-md-3 col-sm-6 bg-warning">
-                col2
+        </div>
+        <div class="row w-100 special-contents">
+            <div class="col">
+                <div class="row">
+                    <div class="col mx-5 mb-0">
+                      <a href="" id="specials-link"> <br><br><br>
+                        <div class="special-contents-1"></div>
+                        <div class="btn btn-light special-contents-btn">
+                          <div>
+                            不動産業界のいまを知る &emsp; <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-6 d-none d-md-block bg-success">
-                col3
-            </div>
-            <div class="col-md-3 col-sm-6 d-none d-md-block bg-info">
-                col4
-            </div>
-        </section3>
+            <div class="col">
+                <div class="row">
+                    <div class="col mx-5">
+                      <a href="" id="specials-link"> <br><br><br>
+                        <div class="special-contents-2"></div>
+                        <div class="btn btn-light special-contents-btn">
+                          <div>
+                            不動産業界のいまを知る &emsp; <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col bg-light"></div>
+                    </div></div>
+                </div>
+    </div>
 
         <section4 class="row">
             <div class="col-md-3 col-sm-6 bg-danger">
@@ -162,11 +208,10 @@
                 col4
             </div>
         </section7>
-    </div>
 
         <div class="section8">
             <button type="button" class="btn btn-lg btn-block text-primary">
-                <a href="#" class="ignielToTop">Go Top</a>
+                <a href="#">Go Top</a>
             </button>
         </div>
     

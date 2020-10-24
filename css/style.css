@@ -1,0 +1,286 @@
+.navbar-nav li {
+    padding: 10px 30px;
+}
+.navbar-bg {
+    background-color: #3180d6;
+    padding: 0 10em 0 10;
+}
+.logo-navtop {
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.text-yellow {
+    background-color: #ec9700;
+    width: 100px;
+    border-radius: 50%;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: small;
+    border-radius: 16px;
+}
+.button {
+    background-color: #ffc250;
+    border: none;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 1px 1px;
+  }
+
+.button1 {
+    border-radius: 0%;
+}
+
+.button2 {
+    position: center;
+    border-radius: 35%;
+}
+
+.container {
+    width: 1056px;
+	margin: auto;
+}
+
+.section{
+	padding: 20px 0;
+}
+.section1 > div {
+	background-position: center;
+    min-height : 200px;
+    width: 100%;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel {
+	position: right;
+}
+.sectitle_r {
+    z-index: 10;
+    font-weight: 700;
+    letter-spacing: 3px;
+    position: absolute;
+  }
+  .sectitle_r::after {
+    content: "";
+    width: 15px;
+    height: 10px;
+    background: #050525;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+  }
+  .sectitle {
+    z-index: 10;
+    font-weight: 700;
+    letter-spacing: 3px;
+    position: absolute;
+  }
+  .sectitle::after {
+    content: "";
+    width: 15px;
+    height: 10px;
+    background: #050525;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+  }
+.special-contents-bg {
+    background-color: #ec9700;
+    background-image: url('../img/bg_oren1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.special_contents_1 {
+    height: 20vh;
+}
+.special_contents_2 {
+    height: 20vh;
+}
+.special_contents_yellow {
+    height: 60vh;
+}
+.special-contents-title{
+    font-size: 6em;
+    top: 50px;
+    left: 250px;
+}
+.special-contents {
+    position: absolute;
+    top: 230vh;
+    height: 70vh;
+}
+.special-contents-1 {
+    background-image: url('../img/img_orang1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 580px;
+}
+.special-contents-2 {
+    background-image: url('../img/img_orang2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    height: 400px;
+    width: 580px;
+}
+.special-contents-1::after {
+    font-size: small;
+    color: #999;
+    content: "- 〇〇〇の賃貸が伸びている理由とは？";
+    height: 10px;
+    position: relative;
+    top: 400px; 
+    left: 350px;
+}
+.special-contents-2::after {
+    font-size: small;
+    color: #999;
+    content: "- 社員が語る地域での働き方";
+    height: 10px;
+    position: relative;
+    top: 400px; 
+    left: 415px;
+}
+.special-contents-btn {
+    height: 3em; 
+    position: relative;
+    bottom: 48px;
+}  
+.specials-title::before {
+    font-size: small;
+    content: "〇〇〇 スペシャルコンテンツ";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: absolute;
+    top: -10px
+}
+
+.map-content {
+    position: absolute; 
+    top: 115vh;
+  }
+  .map-bg {
+    background-color: white;
+    background-image: url('../img/bg_map.png');
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .map-wrapper {
+    height: 75vh;
+  }
+  .maptext {
+    line-height: 3.5;
+    font-size: smaller;
+    letter-spacing: 3px;
+    font-weight: normal;
+    writing-mode: vertical-rl;
+    font-weight: 500;
+  }
+  .title {
+    vertical-align: top;
+    background-color: #ec9700;
+    margin-top: -1em;
+    font-weight: 900;
+    font-size: x-large;
+  }
+  .subtitle {
+    vertical-align: top;
+    background-color: #ec9700;
+    font-weight: 900;
+    font-size: large;
+  }
+
+.section8 > div {
+    margin:row;
+    font-size: 20px;
+}
+
+footer, footer a {
+    color: white;
+}
+
+footer {
+    display: block;
+    overflow: hidden;
+    background-color: #1d65ff;
+}
+
+footer a:hover {
+    color: #00326b;
+}
+
+footer .container > ul {
+    overflow: hidden;
+    margin: 30px 0;
+    padding-left: 0;
+}
+
+footer .container > ul li {
+    float: left;
+    padding-right: 25px;
+}
+
+footer .item h4 {
+    margin-bottom: 20px
+}
+
+footer .item p.address {
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+footer .item ul {
+    padding-left: 0;
+}
+
+footer .item ul li {
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+
+footer .date p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+footer .item form {
+    overflow: hidden;
+}
+
+footer .item form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+}
+
+footer .item form input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    line-height: 4px;
+    background-color: #ef44f8;
+    border: none;
+    float: right;
+    color: #FFF;
+    padding: 0
+}
+
+footer .copyright {
+    background-color: #59355b;
+    padding: 15px 0;
+}
+
+footer .copyright p {
+    margin-bottom: 0;
+    font-size: 16px;
+}
